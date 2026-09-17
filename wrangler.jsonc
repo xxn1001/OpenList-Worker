@@ -65,7 +65,7 @@
     // "ADMIN_PASS": "",
     //
     // CORS 白名单（逗号分隔，不设则仅同源）
-    // "ALLOW_URLS": "https://yourdomain.com",
+    "ALLOW_URLS": "https://pan.susn.uk"
     // ── 可选参数 ──────────────────────────────────────────────────────────
     //
     // 单次整体上传（/put、/form）大小上限，单位字节。默认 26214400（25MB）
@@ -123,7 +123,7 @@
     {
       "binding": "KV"
     }
-  ],
+  ]
   //
   // ▶ 方案 B：D1（关系型，可与 Go 后端共享库；DB_FORMAT 建议改为 "sql"）
   //   控制台：Workers & Pages → D1 → 创建数据库 → 绑定到 Worker，变量名填 DB
