@@ -62,7 +62,7 @@
     // "JWT_SECRET": "",
     //
     // 跳过安装向导，自动以该密码初始化 admin
-    // "ADMIN_PASS": "",
+    "ADMIN_PASS": "",
     //
     // CORS 白名单（逗号分隔，不设则仅同源）
     "ALLOW_URLS": "https://pan.susn.uk"
